@@ -1,0 +1,35 @@
+{
+  "name": "femto",
+  "version": "0.1.0",
+  "description": "a very, very tiny FP library",
+  "main": "./lib/femto.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "bin/release.sh",
+    "patch": "npm version patch && npm run release",
+    "minor": "npm version minor && npm run release",
+    "major": "npm version major && npm run release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliranmal/femto.git"
+  },
+  "keywords": [
+    "fp",
+    "functional progamming",
+    "functional",
+    "function",
+    "functions",
+    "util",
+    "utility"
+  ],
+  "author": "Eliran Malka",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/eliranmal/femto/issues"
+  },
+  "homepage": "https://github.com/eliranmal/femto#readme"
+}
