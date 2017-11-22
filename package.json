@@ -1,5 +1,5 @@
 {
-  "name": "femto",
+  "name": "@eliranmal/femto",
   "version": "0.1.0",
   "description": "a very, very tiny FP library",
   "main": "./lib/femto.js",
@@ -31,5 +31,7 @@
   "bugs": {
     "url": "https://github.com/eliranmal/femto/issues"
   },
-  "homepage": "https://github.com/eliranmal/femto#readme"
+  "homepage": "https://github.com/eliranmal/femto#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
